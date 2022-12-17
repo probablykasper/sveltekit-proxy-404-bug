@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "types": ["@cloudflare/workers-types"],
+        "strict": true,
+        "allowJs": true,
+        "module": "esnext",
+        "target": "es2020",
+        "lib": ["es2020"],
+        "noImplicitAny": true,
+        "keyofStringsOnly": true,
+        "resolveJsonModule": true,
+        "strictBindCallApply": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "checkJs": true,
+        "noEmit": true
+    },
+    "include": ["@types", "src", "types.d.ts"],
+    "exclude": ["build", "node_modules"]
+}
